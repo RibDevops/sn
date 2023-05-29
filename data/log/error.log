@@ -1,0 +1,78 @@
+[Wed May 24 14:11:52.779507 2023] [wsgi:error] [pid 17441:tid 140134675212032] [remote 172.16.1.127:54378] Not Found: /favicon.ico
+[Wed May 24 14:11:59.421534 2023] [wsgi:error] [pid 17441:tid 140134675212032] [remote 172.16.1.127:54389] Not Found: /favicon.ico
+[Wed May 24 14:12:11.426723 2023] [wsgi:error] [pid 17441:tid 140134675212032] [remote 172.16.1.127:54400] Not Found: /favicon.ico
+[Wed May 24 14:17:57.992039 2023] [wsgi:error] [pid 17848:tid 139874651150080] [remote 172.16.1.127:54508] Not Found: /favicon.ico
+[Wed May 24 14:41:46.308679 2023] [wsgi:error] [pid 17848:tid 139874651150080] [remote 172.16.1.127:54660] Not Found: /favicon.ico
+[Wed May 24 14:48:25.080170 2023] [wsgi:error] [pid 17848:tid 139874651150080] [remote 172.16.1.127:54841] Not Found: /favicon.ico
+[Wed May 24 15:24:10.521100 2023] [wsgi:error] [pid 17848:tid 139874667935488] [remote 172.16.1.127:55104] Not Found: /favicon.ico
+[Wed May 24 15:25:39.248762 2023] [wsgi:error] [pid 18320:tid 140295252948736] [remote 172.16.1.127:55118] Not Found: /favicon.ico
+[Wed May 24 15:25:42.522775 2023] [wsgi:error] [pid 18320:tid 140295252948736] [remote 172.16.1.127:55123] Not Found: /favicon.ico
+[Wed May 24 15:27:25.509948 2023] [wsgi:error] [pid 18408:tid 140017703065344] [remote 172.16.1.127:55156] Not Found: /favicon.ico
+[Wed May 24 15:29:00.437282 2023] [wsgi:error] [pid 18408:tid 140017585510144] [remote 172.16.1.127:55199] Not Found: /favicon.ico
+[Wed May 24 15:29:02.217002 2023] [wsgi:error] [pid 18408:tid 140017585510144] [remote 172.16.1.127:55204] Not Found: /favicon.ico
+[Wed May 24 15:29:03.253841 2023] [wsgi:error] [pid 18408:tid 140017585510144] [remote 172.16.1.127:55217] Not Found: /favicon.ico
+[Wed May 24 15:33:19.764708 2023] [wsgi:error] [pid 18589:tid 140369913329408] [remote 172.16.1.127:55264] Not Found: /favicon.ico
+[Wed May 24 15:54:04.416824 2023] [wsgi:error] [pid 19955:tid 140198804371200] [remote 172.16.1.127:55634] Not Found: /favicon.ico
+[Wed May 24 15:54:09.949294 2023] [wsgi:error] [pid 19955:tid 140198879921920] [remote 172.16.1.127:55636] Not Found: /favicon.ico
+[Wed May 24 15:56:21.861019 2023] [wsgi:error] [pid 19955:tid 140198804371200] [remote 172.16.1.127:55692] Not Found: /favicon.ico
+[Wed May 24 15:56:41.876469 2023] [wsgi:error] [pid 19955:tid 140198804371200] [remote 172.16.1.127:55708] Not Found: /favicon.ico
+[Wed May 24 16:03:23.379882 2023] [wsgi:error] [pid 19955:tid 140198879921920] [remote 172.16.1.127:55862] Not Found: /favicon.ico
+[Wed May 24 16:03:41.939019 2023] [wsgi:error] [pid 19955:tid 140198879921920] [remote 172.16.1.127:55875] Not Found: /favicon.ico
+[Wed May 24 16:04:04.913740 2023] [wsgi:error] [pid 20368:tid 140198762317568] [remote 172.16.1.127:55888] Not Found: /favicon.ico
+[Wed May 24 16:22:32.917154 2023] [wsgi:error] [pid 20897:tid 140118758885120] [remote 172.16.1.127:56150] Not Found: /favicon.ico
+[Wed May 24 16:23:03.607128 2023] [wsgi:error] [pid 20897:tid 140118758885120] [remote 172.16.1.127:56157] Not Found: /favicon.ico
+[Wed May 24 16:44:40.505229 2023] [wsgi:error] [pid 22847:tid 139766005835520] [remote 172.16.1.127:56378] Not Found: /favicon.ico
+[Wed May 24 18:41:09.617212 2023] [wsgi:error] [pid 23908:tid 140672147633920] [remote 172.16.1.127:57482] Not Found: /assets/js/jquery.min.js
+[Wed May 24 18:41:09.620671 2023] [wsgi:error] [pid 23908:tid 140672130848512] [remote 172.16.1.127:57484] Not Found: /assets/pages/index.js
+[Wed May 24 18:41:09.623628 2023] [wsgi:error] [pid 23908:tid 140672156026624] [remote 172.16.1.127:57483] Not Found: /assets/js/bootstrap.min.js
+[Wed May 24 18:41:09.624445 2023] [wsgi:error] [pid 23908:tid 140672038471424] [remote 172.16.1.127:57481] Not Found: /assets/css/bootstrap.min.css
+[Wed May 24 18:41:09.630940 2023] [wsgi:error] [pid 23908:tid 140672046872320] [remote 172.16.1.127:57481] Not Found: /assets/pages/index.js
+[Thu May 25 11:36:02.307449 2023] [wsgi:error] [pid 33793:tid 140253699995392] [remote 172.16.1.127:60912] Not Found: /favicon.ico
+[Thu May 25 16:36:32.388836 2023] [wsgi:error] [pid 33793:tid 140253809157888] [remote 172.16.1.127:62499] Not Found: /favicon.ico
+[Thu May 25 16:42:53.110920 2023] [wsgi:error] [pid 33793:tid 140253809157888] [remote 172.16.1.127:62548] Not Found: /favicon.ico
+[Thu May 25 16:58:55.730604 2023] [wsgi:error] [pid 33793:tid 140253699995392] [remote 172.16.1.127:62655] Not Found: /favicon.ico
+[Thu May 25 18:02:20.735136 2023] [wsgi:error] [pid 33793:tid 140253699995392] [remote 172.16.1.127:62886] Not Found: /favicon.ico
+[Thu May 25 18:20:46.939677 2023] [wsgi:error] [pid 33793:tid 140253699995392] [remote 172.16.1.127:63205] Not Found: /favicon.ico
+[Thu May 25 18:20:58.941239 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] Internal Server Error: /
+[Thu May 25 18:20:58.941290 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] Traceback (most recent call last):
+[Thu May 25 18:20:58.941295 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/base.py", line 505, in parse
+[Thu May 25 18:20:58.941298 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     compile_func = self.tags[command]
+[Thu May 25 18:20:58.941300 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] KeyError: 'static'
+[Thu May 25 18:20:58.941303 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] 
+[Thu May 25 18:20:58.941305 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] During handling of the above exception, another exception occurred:
+[Thu May 25 18:20:58.941308 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] 
+[Thu May 25 18:20:58.941310 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] Traceback (most recent call last):
+[Thu May 25 18:20:58.941312 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu May 25 18:20:58.941315 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     response = get_response(request)
+[Thu May 25 18:20:58.941318 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Thu May 25 18:20:58.941320 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Thu May 25 18:20:58.941323 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/src/app/views.py", line 53, in index
+[Thu May 25 18:20:58.941325 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     return render(request, 'index.html')
+[Thu May 25 18:20:58.941328 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+[Thu May 25 18:20:58.941330 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     content = loader.render_to_string(template_name, context, request, using=using)
+[Thu May 25 18:20:58.941332 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+[Thu May 25 18:20:58.941335 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     template = get_template(template_name, using=using)
+[Thu May 25 18:20:58.941337 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+[Thu May 25 18:20:58.941340 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     return engine.get_template(template_name)
+[Thu May 25 18:20:58.941342 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 33, in get_template
+[Thu May 25 18:20:58.941355 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     return Template(self.engine.get_template(template_name), self)
+[Thu May 25 18:20:58.941357 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/engine.py", line 175, in get_template
+[Thu May 25 18:20:58.941360 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     template, origin = self.find_template(template_name)
+[Thu May 25 18:20:58.941363 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+[Thu May 25 18:20:58.941365 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     template = loader.get_template(name, skip=skip)
+[Thu May 25 18:20:58.941367 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+[Thu May 25 18:20:58.941370 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     template = super().get_template(template_name, skip)
+[Thu May 25 18:20:58.941372 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+[Thu May 25 18:20:58.941375 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     return Template(
+[Thu May 25 18:20:58.941377 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+[Thu May 25 18:20:58.941379 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     self.nodelist = self.compile_nodelist()
+[Thu May 25 18:20:58.941382 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+[Thu May 25 18:20:58.941384 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     return parser.parse()
+[Thu May 25 18:20:58.941387 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/base.py", line 507, in parse
+[Thu May 25 18:20:58.941389 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     self.invalid_block_tag(token, command, parse_until)
+[Thu May 25 18:20:58.941392 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]   File "/home/nu/venv/lib/python3.9/site-packages/django/template/base.py", line 568, in invalid_block_tag
+[Thu May 25 18:20:58.941394 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206]     raise self.error(
+[Thu May 25 18:20:58.941396 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63206] django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 15: 'static'. Did you forget to register or load this tag?
+[Thu May 25 18:26:46.561881 2023] [wsgi:error] [pid 36935:tid 139973023086336] [remote 172.16.1.127:63292] Not Found: /favicon.ico
+[Thu May 25 18:26:54.411736 2023] [wsgi:error] [pid 36935:tid 139973023086336] [remote 172.16.1.127:63295] Not Found: /favicon.ico
+[Thu May 25 18:26:55.543661 2023] [wsgi:error] [pid 36935:tid 139973140641536] [remote 172.16.1.127:63314] Not Found: /favicon.ico
