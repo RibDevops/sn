@@ -39,6 +39,7 @@ def logar_usuario(request):
         form_login = AuthenticationForm()
     return render(request, 'users/login.html', {'form_login': form_login})
 
+
 # def index(request):
 #     return render(request, 'users/login.html')
 
@@ -64,4 +65,19 @@ def alterar_senha(request):
     return render(request, 'users/alterar_senha.html', {'form_senha': form_senha})
 
 
+
+
+
+def infor(request):
+    return render(request, 'users/login.html')
+def pi(request):
+    return render(request, 'users/login.html')
+def ob(request):
+    return render(request, 'users/login.html')
+def ap(request):
+    return render(request, 'users/login.html')
+def msg(request):
+    return render(request, 'users/login.html')
+def inf(request):
+    return render(request, 'users/login.html')
 
