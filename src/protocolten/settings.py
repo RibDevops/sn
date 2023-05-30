@@ -123,7 +123,9 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    r"C:\Users\Suporte\Documents\home\nu\src\static",
+    #r"C:\Users\Suporte\Documents\home\nu\src\static",
+
+    r"C:\sn\src\static",
 ]
 
 # STATIC_ROOT = '/home/nu/files/public/static'

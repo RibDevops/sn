@@ -2,7 +2,48 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, PasswordChangeForm
 from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
-from django import forms 
+# from django import forms 
+
+
+ 
+# relative import of forms
+from app.models import *
+from app.forms import *
+
+
+
+def create_view(request):
+    # dictionary for initial data with
+    # field names as keys
+    context ={}
+ 
+    # add the dictionary during initialization
+    form = NumeracaoForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+         
+    context['form']= form
+    return render(request, "create_view.html", context)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @login_required(login_url='/logar_usuario')
 def home(request):

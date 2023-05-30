@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from app.views import *
+from .views import *
 
 urlpatterns = [
     path('home', home, name='home'),
@@ -16,6 +16,12 @@ urlpatterns = [
     path('ap', ap, name="index"),
     path('msg', msg, name="index"),
     path('inf', inf, name="index"),
+
+
+
+    path('create_view/', create_view, name="create_view"),
+
+
 
     
     # path('', mysite, name='mysite'), 
