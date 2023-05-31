@@ -12,9 +12,10 @@ class NumeracaoForm(forms.ModelForm):
  
         # specify fields to be used
         fields = [
-            "id_tipo",
+            "fk_tipo",
             "numero_doc",
             "description_doc",
+            "fk_user",
         ]
 
 # class TipoForm(forms.ModelForm):

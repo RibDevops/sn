@@ -10,6 +10,26 @@ from django.contrib.auth import authenticate, login, logout, update_session_auth
 from app.models import *
 from app.forms import *
 
+def list_view(request):
+    # dictionary for initial data with
+    # field names as keys
+    context ={}
+ 
+    # add the dictionary during initialization
+    context["dataset"] = Numeracao.objects.all()
+         
+    return render(request, "sn/list_view.html", context)
+
+def detail_view(request, id):
+    # dictionary for initial data with
+    # field names as keys
+    context ={}
+ 
+    # add the dictionary during initialization
+    context["data"] = Numeracao.objects.get(id = id)
+         
+    return render(request, "sn/detail_view.html", context)
+
 
 
 def create_view(request):
@@ -21,9 +41,15 @@ def create_view(request):
     form = NumeracaoForm(request.POST or None)
     if form.is_valid():
         form.save()
+
+     # Selecionar campos específicos
+    # fields_to_display = ['tipo_doc', 'numero_doc', 'description_doc']
+    # form_fields = {field: form[field] for field in fields_to_display}
+    # context['form_fields'] = form_fields
+    
          
     context['form']= form
-    return render(request, "create_view.html", context)
+    return render(request, "sn/create_view.html", context)
 
 def create_tipo(request):
     # dictionary for initial data with
@@ -36,7 +62,7 @@ def create_tipo(request):
         form.save()
          
     context['form']= form
-    return render(request, "create_tipo.html", context)
+    return render(request, "sn/create_tipo.html", context)
 
 
 

@@ -20,6 +20,10 @@ urlpatterns = [
 
     path('create_view/', create_view, name="create_view"),
     path('create_tipo/', create_tipo, name="create_tipo"),
+    path('list_view/', list_view, name="list_view"),
+
+    path('detail_view/<id>/', detail_view ),
+
 
 
 
