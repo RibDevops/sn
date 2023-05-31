@@ -18,8 +18,8 @@ urlpatterns = [
     path('inf', inf, name="index"),
 
 
-
     path('create_view/', create_view, name="create_view"),
+    path('create_tipo/', create_tipo, name="create_tipo"),
 
 
 

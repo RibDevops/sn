@@ -25,6 +25,18 @@ def create_view(request):
     context['form']= form
     return render(request, "create_view.html", context)
 
+def create_tipo(request):
+    # dictionary for initial data with
+    # field names as keys
+    context ={}
+ 
+    # add the dictionary during initialization
+    form = TipoForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+         
+    context['form']= form
+    return render(request, "create_tipo.html", context)
 
 
 

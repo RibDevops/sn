@@ -2,7 +2,7 @@ from django.db import models
 
 class Tipo(models.Model):
     id = models.AutoField(primary_key=True)
-    tipo_doc = models.IntegerField()
+    tipo_doc = models.CharField(max_length=30)
     description_tipo = models.TextField()
     # image = models.ImageField(upload_to='images/')
     create_at = models.DateTimeField(auto_now_add=True)
