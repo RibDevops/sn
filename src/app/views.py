@@ -119,12 +119,13 @@ def logar_usuario(request):
     return render(request, 'users/login.html', {'form_login': form_login})
 
 
+def index(request):
+    return redirect('logar_usuario')
+    # return render(request, 'users/login.html')
+
+# @login_required(login_url='/logar_usuario')
 # def index(request):
 #     return render(request, 'users/login.html')
-
-@login_required(login_url='/logar_usuario')
-def index(request):
-    return render(request, 'users/login.html')
 
 # @login_required(login_url='/logar_usuario')
 # def deslogar_usuario(request):
@@ -148,7 +149,15 @@ def alterar_senha(request):
 
 
 def infor(request):
-    return render(request, 'users/login.html')
+        # dictionary for initial data with
+    # field names as keys
+    context ={}
+ 
+    # add the dictionary during initialization
+    context["dataset"] = Numeracao.objects.get(fk_tipo = 1)
+         
+    return render(request, "sn/list_view.html", context)
+    
 def pi(request):
     return render(request, 'users/login.html')
 def ob(request):

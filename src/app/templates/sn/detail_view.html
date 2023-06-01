@@ -2,11 +2,37 @@
 {% block title %}Pagina Inicial{% endblock %}
 {% block content %}
 <div class="main">
-     
-    <!-- Specify fields to be displayed -->
-    {{ data.id }}<br/>
-    {{ data.tipo_doc }}<br/>
-    {{ data.description_doc }}<br/>
+     <!-- Security token -->
+    {% csrf_token %} 
+</div>
+
+<div class="main">
+    <div class="col-8 m-auto pt-4 pb-2 text-center">
+
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th  style="text-align: center">id</th>
+                <th   style="text-align: center">Numero do Documento</th>
+                <th   style="text-align: center">Decrição</th>
+                <th   style="text-align: center">Usuário</th>
+                <th   style="text-align: center">Ações</th>
+                </tr>
+                </thead>
+                <tbody>    
+    <tr>
+        <td style="text-align: left">{{ data.id }}</td>
+        <td>{{ data.numero_doc }}</td>
+        <td  style="text-align: left">{{ data.description_doc }}</td>
+        <td  style="text-align: left">{{ data.fk_user }}</td>
+        <td>
+            <a href="home/" class="btn btn-warning">Voltar</a>
+            <a href="" class="btn btn-danger">Deletar</a>
+        </td>
+    </tr>
+
+</tbody>
+</table>
  
 </div>
 {% endblock %}
